@@ -56,7 +56,31 @@ float: right;
     color: black;
 }
 
-.topnav a:active {
-background-color: #04aa6d;
+.topnav a.active {
+background-color: #09ad71;
 color: white;
+}
+
+.sidebar {
+    background-color: #fffefe;
+    overflow: hidden;
+}
+
+.sidebar a {
+    float: left;
+    color: #000000;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar a:hover{
+    background-color: #cec9c9;
+    color: black;
+}
+
+.sidebar a.active {
+background-color: #04aa6d;
+color: rgb(0, 0, 0);
 }
