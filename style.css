@@ -62,7 +62,7 @@ color: white;
 }
 
 .sidebar {
-    background-color: #fffefe;
+    background-color: #dddddd;
     overflow: hidden;
 }
 
@@ -76,7 +76,7 @@ color: white;
 }
 
 .sidebar a:hover{
-    background-color: #cec9c9;
+    background-color: #bdb9b9;
     color: black;
 }
 
